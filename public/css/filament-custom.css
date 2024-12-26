@@ -1,0 +1,22 @@
+/* Ajustar el ancho máximo de las columnas */
+.filament-tables .table-column {
+    max-width: 150px; /* Ajusta este valor según sea necesario */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Ajustar el padding de las celdas */
+.filament-tables .table-cell {
+    padding: 8px; /* Ajusta el padding según tus necesidades */
+}
+
+/* Ajustar el espaciado general de la tabla */
+.filament-tables .table {
+    margin: 0 auto; /* Centrar la tabla horizontalmente */
+    padding: 0; /* Eliminar padding innecesario */
+}
+
+/* Ajustar el margen de la tabla */
+.filament-tables .table-container {
+    margin: 0; /* Ajusta el margen según sea necesario */
+}
